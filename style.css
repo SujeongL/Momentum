@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+#body{
+    background-image: url('https://source.unsplash.com/random/1600x900');
+    background-size:cover;
+    display:flex;
+    min-height:100vh;
+    margin:0 auto;
+}
+
+form {
+    position: absolute;
+    left: 1%;
+    top: 4%;
+}
+
+button.img-button{
+    border: none;
+    background: transparent;
+    font-size: 1.125rem;
+}
+
+.fas {
+    width: 40px;
+    height: 40px;
+}
+
+.keyword{
+    border: none;
+    border-bottom: 2.5px solid white;
+    outline: none;
+    background: transparent;
+    width: 150px;
+    color: white;
+    font-size: 1.063rem;
+    font-style: "Malgun Gothic"
+}
+
+select {
+    border: none;
+    outline: none;
+    width: 80px;
+    font-size: 1.125rem;
+    font-weight: 200;
+    background: transparent;
+    color: white;
+}
+
+select option {
+    background-color: black;
+}
+
+#weather {
+    float: right;
+    position: absolute;
+    left: 93%;
+    top: 2%;
+    color: white;
+    font-size: 35px;
+}
+
+.fas {
+    color: white;
+    width: 50px;
+    height: 50px;
+}
+
+#time {
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    color: white;
+    font-size: 150px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+}
+
+#greeting {
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    color: white;
+    margin: 0 auto;
+    font-size: 50px;
+}
+
+#name {
+    position: absolute;
+    width: 600px;
+    top: 65%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+}
+
+input::placeholder {
+    color: white;
+}
+
+#today-todo {
+    position: absolute;
+    top: 62%;
+    left: 30%;
+}
+
+#todoList {
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    color: white;
+}
+
+#question {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#task {
+    width: 500px;
+    height: 30px;
+    font-size: 25px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid white;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+#quote {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+}

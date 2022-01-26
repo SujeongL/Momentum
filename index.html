@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Momentum</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
+<body id="body">
+    <div>
+        <form class = 'search'>
+            <button class = "img-button" type = "submit" name = "click" value = "">
+                    <i class="fas fa-search"></i>
+            </button>
+
+            <input class = 'keyword' type = 'text' name = 'search' maxlength = 255 value = "" autocomplete="off">
+
+            <select class = 'SelectSearch' name = 'WhichSearch'>
+                    <option id = 'google' value = 'google'>Google</option>
+                    <option id = 'naver' value = 'naver'>Naver</option>
+            </select>
+        </form>
+
+        <span id="weather"></span>
+    </div>
+
+    
+    <div id="time"></div>
+
+    <div id="greeting">
+        <input type="text" id="name" placeholder="Hello, what's your name?" onkeydown="javascript:time_name();">
+
+    </div>
+   
+    <form id="today-todo">
+        <div id="question">What are you going to do today?</div>
+        <input type="text" id="task">
+    </form>
+    <ul id="todoList"></ul>
+    
+    <div id="quote">
+
+    </div>
+
+    <script src="search.js"></script>
+    <script src="weather.js"></script>
+    <script src="clock.js"></script>
+    <script src="quotes.js"></script>
+    <script src="todo.js"></script>
+    
+</body>
+</html>
